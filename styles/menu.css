@@ -1,0 +1,76 @@
+﻿/* ---------------------------------------------------------- */
+/*
+ * menu.css
+ *
+ * Copyright (c) 2012 Enji TRAN NGUYEN
+ *
+ */
+/* ---------------------------------------------------------- */
+.navigation {
+	width: 680px;
+	margin-top:30px;
+	margin-left:270px;
+	box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.5) inset, 1px 5px 5px 1px rgba(255, 255, 255, 0.5);
+}
+ul.menu {
+	list-style: none;
+	font-family: "Verdana",sans-serif;
+	border-top: 1px solid #bebebe;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+ul.menu li {
+	float: left;
+}
+ul.menu li a {
+	text-decoration: none;
+	background: url("../pictures/gradient-bg.png") repeat-x bottom;
+
+	padding: 15px 0px;
+	width: 110px;
+	color: #FFFFFF;
+	float: left;
+	text-align: center;
+	border-right: 1px solid #a1a1a1;
+	border-left: 1px solid #e8e8e8;
+	font-weight: bold ;
+	font-size: 15px;
+	-moz-box-shadow: 0 1px 3px #555;
+	-webkit-box-shadow: 0 1px 3px #555;
+	text-shadow: 0 1px 1px #ff7800;
+}
+ul.menu li a.hover {
+	background: url(../pictures/backgroundMenu.png) repeat-x top left;
+	color: #FFFFFF;
+	text-shadow: 0 1px 1px #ff7800;
+
+}
+ul.menu li span {
+	width: 64px;
+	height: 64px;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	position: absolute;
+	z-index: -1;
+	top: 80px;
+	cursor: pointer;
+}
+ul.menu li span.home {
+	left: 33px; /*128/2 - 32(half of icon) +1 of border*/
+}
+ul.menu li span.about {
+	left: 163px; /* plus 128 + 2px of border*/
+}
+ul.menu li span.cv {
+	left: 293px;
+}
+ul.menu li span.portfolio {
+	left: 423px;
+}
+ul.menu li span.project {
+	left: 553px;
+}
+ul.menu li span.contact {
+	left: 683px;
+}
